@@ -18,6 +18,13 @@
         "icon": "navigate-outline",
         "name": "Button",
         "redirectTo": "/button"
-        }
+        },
+
+        {
+            "icon": "enter-outline",
+            "name": "Input",
+            "redirectTo": "/ion-input"
+            }
+
 ]
     

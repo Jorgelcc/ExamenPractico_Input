@@ -33,6 +33,10 @@ const routes: Routes = [
     path: 'input',
     loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
   },
+  {
+    path: 'ion-input',
+    loadChildren: () => import('./pages/ion-input/ion-input.module').then( m => m.IonInputPageModule)
+  },
 ];
 
 @NgModule({
